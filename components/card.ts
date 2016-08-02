@@ -122,7 +122,7 @@ import {Component, Input} from "@angular/core";
         }
     `],
 })
-export class CardComponent {
+export class Card {
     @Input() linkUrl: string;
     @Input() imageUrl: string;
     @Input() tags: string;

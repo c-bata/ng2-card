@@ -14,7 +14,7 @@ $ npm install --save ng2-card
 
 ```typescript
 import {Component} from "@angular/core";
-import {CardComponent} from "ng2-card";
+import {Card} from "ng2-card";
 
 @Component({
     selector: "my-app",
@@ -25,7 +25,7 @@ import {CardComponent} from "ng2-card";
           imageUrl="/img/works/portfolio.png"
           tags="HTML5,Sass,Compass,Angular2"></card>
 `,
-    directives: [CardComponent]
+    directives: [Card]
 })
 export class App {}
 ```

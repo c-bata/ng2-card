@@ -1,0 +1,6 @@
+# example
+example/
+
+# typescript
+*.ts
+!*.d.ts

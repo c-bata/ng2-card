@@ -1,6 +1,6 @@
 # ng2-card
 Card view component for angular2.
-**This is an alpha release. Use caution and hope.**
+**This library is a pre release.**
 
 ![example](./example/ng2-card.gif)
 
@@ -14,7 +14,7 @@ $ npm install --save ng2-card
 
 ```typescript
 import {Component} from "@angular/core";
-import {CARD_DIRECTIVES} from "ng2-card";
+import {CardComponent} from "ng2-card";
 
 @Component({
     selector: "my-app",
@@ -25,7 +25,7 @@ import {CARD_DIRECTIVES} from "ng2-card";
           imageUrl="/img/works/portfolio.png"
           tags="HTML5,Sass,Compass,Angular2"></card>
 `,
-    directives: [CARD_DIRECTIVES]
+    directives: [CardComponent]
 })
 export class App {}
 ```
@@ -37,4 +37,3 @@ export class App {}
 - **linkUrl {string}** : a link url
 - **linkUrl {string}** : a image url
 - **tags {string}** : the tags text separated by comma
-

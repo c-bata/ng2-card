@@ -14,7 +14,7 @@ $ npm install --save ng2-card
 
 ```typescript
 import {Component} from "@angular/core";
-import {Card} from "ng2-card";
+import {Card} from "ng2-card/ng2-card";
 
 @Component({
     selector: "my-app",

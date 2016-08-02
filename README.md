@@ -1,5 +1,8 @@
 # ng2-card
-Card view component for angular2
+Card view component for angular2.
+**This is an alpha release. Use caution and hope.**
+
+![example](./example/ng2-card.gif)
 
 ## Installation
 
@@ -9,9 +12,7 @@ $ npm install --save ng2-card
 
 ## Usage
 
-![example](./example/ng2-card.gif)
-
-```
+```typescript
 import {Component} from "@angular/core";
 import {CARD_DIRECTIVES} from "ng2-card";
 
@@ -28,4 +29,12 @@ import {CARD_DIRECTIVES} from "ng2-card";
 })
 export class App {}
 ```
+
+## Properties
+
+- **title {string}** : a title text
+- **subtitle {string}** : a subtitle text
+- **linkUrl {string}** : a link url
+- **linkUrl {string}** : a image url
+- **tags {string}** : the tags text separated by comma
 

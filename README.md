@@ -4,6 +4,8 @@ Card view component for angular2.
 
 ![example](./example/ng2-card.gif)
 
+[Demo - this is my portfolio website.](http://c-bata.link/#/works)
+
 ## Installation
 
 ```
